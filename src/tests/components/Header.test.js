@@ -6,5 +6,5 @@
  test('should render Header correclty', () => {
      const render = new ReactShallowRenderer();
      render.render(<Header />);
-     console.log(render.getRenderOutput());
- })
+     expect(render.getRenderOutput()).toMatchSnapshot();
+ });
