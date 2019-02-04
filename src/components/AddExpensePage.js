@@ -40,4 +40,4 @@ const mapDispatchToProps = (dispatch) => ( {
     onSubmit: (expense) => dispatch(addExpense(expense))
 });
 
-export default connect(undefinied, mapDispatchToProps)(AddExpensePage);
+export default connect(undefined, mapDispatchToProps)(AddExpensePage);
